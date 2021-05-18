@@ -10,9 +10,6 @@ module.exports = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
-    prism: {
-      additionalLanguages: ['scala'],
-    },
     navbar: {
       title: 'My Site',
       logo: {

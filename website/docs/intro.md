@@ -6,37 +6,30 @@ sidebar_position: 1
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
-```css
-body {
-  color: blue;
-}
+## Getting Started
+
+Get started by **creating a new site**.
+
+Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
+
+## Generate a new site
+
+Generate a new Docusaurus site using the **classic template**:
+
+```shell
+npx @docusaurus/init@latest init my-website classic
 ```
 
-```html
-<div> <p> sasdas d</p> </div>
+## Start your site
+
+Run the development server:
+
+```shell
+cd my-website
+
+npx docusaurus start
 ```
 
-```jsx
-console.log('Every repo must come with a mascot.');
-```
+Your site starts at `http://localhost:3000`.
 
-```scala
-case class Something(a: Long, b: String)
-val x = 1
-List(x, x)
-```
-
-```java
-public class Main {
-  public static void main(String[] args) {
-    // This is a comment
-    System.out.println("Hello World");
-  }
-}
-```
-
-```php
-<?php
-echo "Hello world!<br>";
-?>
-```
+Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
